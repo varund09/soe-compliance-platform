@@ -2,6 +2,7 @@
 # SOE Compliance Demo Script
 # Generates a JSON file with basic device checks
 # ---------------------------------------------------
+# Trigger pipeline run
 
 $device = $env:COMPUTERNAME
 $os = (Get-CimInstance Win32_OperatingSystem).Caption
